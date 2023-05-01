@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;600&display=swap');
+ 
+/*Resetando CSS*/
+* {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt';
+    user-select: none;
+}
+
+/*Logo - nome*/
+.logo {
+    margin-left: 75vh;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo:hover {
+    transition: 0.3s;
+    color: #047632;
+    cursor: pointer;
+}
+ /*Menu*/
+nav {
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-color: #06aa48;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-list a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.nav-list a:hover {
+    transition: 0.3s;
+    color: #047632;
+}
+
+/*Rodapé*/
+footer {
+    margin-top: 100vh;
+    height: 90px;
+    width: 100%;
+    background-color: #1e1e1e;
+}
+
+footer h1 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer p {
+    color: #8d8d8d;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+/*Informações Desenvolvedor*/
+.developer {
+    background-color: #161515;
+    text-align: center;
+    color: #575656;
+}
+
+.developer span {
+    background-color: #161515;
+    text-align: center;
+    color: #035d27;
+}

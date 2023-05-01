@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt';
+    user-select: none;
+}
+
+body {
+    height: 91vh;
+    background-size: cover;
+    background: url(resources/imagem-campo.jpg) no-repeat center center;
+}
+
+.logo {
+    margin-left: 75vh;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.logo:hover {
+    transition: 0.3s;
+    color: #047632;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;/*Responsividade*/
+    height: 9vh;/*Altura*/
+    width: 100%;/*Largura*/
+    background-color: #06aa48;/*Cor de Fundo*/
+    justify-content: space-around;/*Alinhando no final do flexbox a direita*/
+    align-items: center;
+}
+
+
+.nav-list {
+    display: flex;/*Responsividade*/
+    list-style: none;/*Removendo o Estilo da Lista*/
+    align-items: center;/*Alinhando o texto ao centro*/
+}
+
+.nav-list a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.nav-list a:hover {
+    transition: 0.3s;
+    color: #047632;
+}
+
+h1 {
+    text-align: center;
+    color: #2d0030;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    background: #1414149d;
+    height: 90px;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.container h2 {
+    color: #ffffff;
+    margin: 25px;
+}
+
+.area {
+    height: 70px;
+    width: 60px;
+    margin: 12px;
+}
+
+.informacoes {
+    display: flex;
+    background-color: #1414149d;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.informacoes h2 {
+    font-size: 120px;
+}
+
+.backgroud-nome {
+    background-color: #504f4f44;
+    height: 80px;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.backgroud-time {
+    background-color: #504f4f44;
+    height: 80px;
+    height: 180px;
+    width: 180px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.backgroud-tempo {
+    background-color: #504f4f44;
+    height: 80px;
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 190px;
+}
+
+.nome {
+    color: #ffffff;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+
+.tempo {
+    text-align: center;
+}
+
+.tempo h3 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.tempo h4 {
+    color: #ffffff;
+    font-size: 12px;
+}
